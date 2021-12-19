@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-        if (!joined) return void M.reply('_*Darling 🌸*_')
+        if (!joined) return void M.reply('_*Annyeonghaseyo 🌸*_')
         const zerotwo = joined.trim()
         await axios.get(`https://api.simsimi.net/v2/?text=${zerotwo}&lc=en`)
         .then((response) => {
@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
                 const text = `_*🎈Zero Two:*_  ${response.data.success}`
                 M.reply(text);
             }).catch(err => {
-                M.reply(`_*Darling 🌸*_`)
+                M.reply(`_*Annyeonghaseyo 🌸*_`)
             }
             )
     };
