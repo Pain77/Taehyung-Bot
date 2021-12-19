@@ -114,7 +114,7 @@ export default class MessageHandler {
 				return void M.reply(`Only MODS are allowed to use this command.`);
 			}
 			if (command.config?.adminOnly && !M.sender.isAdmin)
-				return void M.reply(`This command is only meant for the group admins, Baka!`);
+				return void M.reply(`This command is only meant for the group admins, Babo!`);
 			try {
 				await command.run(M, this.parseArgs(args));
 				if (command.config.baseXp) {
