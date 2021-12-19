@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" border="0"></a>
+  <img src="https://c.tenor.com/Fk79hfrn294AAAAC/bts-bangtan-boys.gif" border="0"></a>
 
 
 <h1 align="center">(っ◔◡◔)っ ♥ 𝙏𝙖𝙚𝙝𝙮𝙪𝙣𝙜 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝘽𝙤𝙩! ♥ <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
