@@ -7,9 +7,9 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'zerotwo',
-            description: 'Chat with Zerotwo.',
-            aliases: ['02'],
+            command: 'taehyung',
+            description: 'Chat with Taehyung.',
+            aliases: ['kim'],
             category: 'fun',
             usage: `${client.config.prefix}zerotwo (text)`
         })
@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         await axios.get(`https://api.simsimi.net/v2/?text=${zerotwo}&lc=en`)
         .then((response) => {
                 // console.log(response);
-                const text = `_*🎈Zero Two:*_  ${response.data.success}`
+                const text = `_*🎈Taehyung:*_  ${response.data.success}`
                 M.reply(text);
             }).catch(err => {
                 M.reply(`_*Annyeonghaseyo 🌸*_`)
