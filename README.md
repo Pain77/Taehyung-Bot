@@ -3,7 +3,7 @@
   <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" border="0"></a>
 
 
-<h1 align="center">(っ◔◡◔)っ ♥ 𝙏𝙖𝙚𝙝𝙮𝙪𝙣𝙜 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝘽𝙤𝙩! ♥ <img src="https://64.media.tumblr.com/6353bc254285f22abbeaf5653a2e133d/0a4aca37e117c27e-fe/s540x810/e1a81a3d48c2adbf0c3c5502bb95cfa24bbfff6e.gifv" style="border-radius:5;" width="40px" alt=""><br></h1>
+<h1 align="center">(っ◔◡◔)っ ♥ 𝙏𝙖𝙚𝙝𝙮𝙪𝙣𝙜 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝘽𝙤𝙩! ♥ <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
 
 
