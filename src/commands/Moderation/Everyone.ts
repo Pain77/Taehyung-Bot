@@ -59,7 +59,7 @@ export default class Command extends BaseCommand {
 			));
 		const sticker: any = await new Sticker(random, {
 			pack: "READ QUOTED MESSAGE",
-			author: "🌟 Chitoge 🌟",
+			author: "🌟 ░P░A░I░N░ 🌟",
 			quality: 90,
 			type: "full",
 			categories: ["🎊"],
