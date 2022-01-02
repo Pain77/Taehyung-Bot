@@ -12,18 +12,18 @@ export default class Command extends BaseCommand {
 			command: "help5",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}zerotwo`,
+			usage: `${client.config.prefix}taehyung`,
 		        dm: true,
                         aliases: ['h5','?5','well5','menu5']
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const zerotwo = 
+		const taehyung = 
 			"https://c.tenor.com/sFB3mIhE_WQAAAPo/taehyung-crying.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: zerotwo },
+			{ url: taehyung },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
