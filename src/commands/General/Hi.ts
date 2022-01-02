@@ -16,16 +16,16 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const zerotwo =
+		const taehyung =
 			"https://c.tenor.com/uPorZsWSDUoAAAPo/taehyung-bts.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: zerotwo },
+			{ url: taehyung },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `*_i think i have taken a liking to you. won't you be my darling 💋_*`,
+				caption: `*_Live life coolly as much as you can _*`,
 		    }
 		);
 	};
