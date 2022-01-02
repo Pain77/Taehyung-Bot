@@ -9,16 +9,16 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'taehyung',
             description: 'Chat with Taehyung.',
-            aliases: ['kim'],
+            aliases: ['kim','tae'],
             category: 'fun',
-            usage: `${client.config.prefix}zerotwo (text)`
+            usage: `${client.config.prefix}taehyung (text)`
         })
     }
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         if (!joined) return void M.reply('_*Annyeonghaseyo 🌸*_')
-        const zerotwo = joined.trim()
-        await axios.get(`https://api.simsimi.net/v2/?text=${zerotwo}&lc=en`)
+        const taehyung = joined.trim()
+        await axios.get(`https://api.simsimi.net/v2/?text=${taehyung}&lc=en`)
         .then((response) => {
                 // console.log(response);
                 const text = `_*🎈Taehyung:*_  ${response.data.success}`
