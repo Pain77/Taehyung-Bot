@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
            const n = [
            'https://i.pinimg.com/236x/ef/7c/9a/ef7c9ae945c01da8b0aa074efc47a216.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIa6w8AaWfwBjBGeJDOvphtG64EO_EAzHCDKGpju2zP9BcRyaPbzZP78CtqDhMl35c4Yo&usqp=CAU','https://preview.redd.it/62od5seume621.jpg?auto=webp&s=171510b473a05764a0d8c17598910cfe4bd854b8'
         ]
-        let zerotwo = n[Math.floor(Math.random() * n.length)]
+        let taehyung = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
             const commands = this.handler.commands.keys()
             const categories: { [key: string]: ICommand[] } = {}
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (🎀) Konichiwa! *${M.sender.username}*\n`
+            let text = `👋🏻 (🎀) Annyeonghaseyo! *${M.sender.username}*\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `━━❰•Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•❱━━\n• \`\`\`${categories[
