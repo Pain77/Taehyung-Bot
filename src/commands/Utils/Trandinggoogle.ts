@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
     // static count = 0
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
-        if (!joined) return void M.reply('✖ Provide an item name to search, Baka!')
+        if (!joined) return void M.reply('✖ Provide an item name to search, Pabo!')
         const taehyung = joined.trim()
         console.log(taehyung)
         const { data } = await axios.get(`https://api-xcoders.xyz/api/info/trend/google?country=${taehyung}&apikey=Zl0clXuAbx`)
