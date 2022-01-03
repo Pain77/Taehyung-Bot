@@ -26,12 +26,12 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		if (!joined)
 			return void (await M.reply(`Give The Name Of Wallpaper You Want To Search 🔍`));
-		const chitoge: any = joined.trim().split("|");
-		const term: string = chitoge[0];
-		const amount: number = chitoge[1];
+		const taehyung: any = joined.trim().split("|");
+		const term: string = taehyung[0];
+		const amount: number = taehyung[1];
 		if (!amount)
 			return void M.reply(
-				`Give The Number Of Wallpapers You Want\n\nExample: *${this.client.config.prefix}wallpaper Zero Two | 7*`
+				`Give The Number Of Wallpapers You Want\n\nExample: *${this.client.config.prefix}wallpaper Kim Taehyung | 7*`
 			);
 		if (amount > 20)
 			return void M.reply(`Wallpaper Limit Is 20`);
