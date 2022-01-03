@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         if (!this.client.config.geniusKey)
 			return void M.reply("No Genius Access Token set.");
         if (!joined) return void M.reply('Give me the song name 🐱')
-        const chitoge = joined.trim()
+        const taehyung = joined.trim()
         const Client = new Genius.Client(this.client.config.geniusKey)
         const search = await Client.songs.search(chitoge)
         if(search.error) return void M.reply(`Couldn't find any matching song results.`)
