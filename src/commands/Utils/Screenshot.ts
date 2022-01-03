@@ -19,9 +19,9 @@ export default class Command extends BaseCommand {
     }
     
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
-        if (!joined) return void (await M.reply(`Give me the url, Baka 🐱`))
-        const chitoge = joined.trim()
-        return void M.reply( await request.buffer(`https://shot.screenshotapi.net/screenshot?&url=${chitoge}&full_page=true&fresh=true&output=image&file_type=png&wait_for_event=load`),
+        if (!joined) return void (await M.reply(`Give me the url, Pabo 🐱`))
+        const taehyung = joined.trim()
+        return void M.reply( await request.buffer(`https://shot.screenshotapi.net/screenshot?&url=${taehyung}&full_page=true&fresh=true&output=image&file_type=png&wait_for_event=load`),
         MessageType.image,
                     undefined,
                     undefined,
