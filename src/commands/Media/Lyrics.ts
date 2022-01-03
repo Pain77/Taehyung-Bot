@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         if (!joined) return void M.reply('Give me the song name 🐱')
         const taehyung = joined.trim()
         const Client = new Genius.Client(this.client.config.geniusKey)
-        const search = await Client.songs.search(chitoge)
+        const search = await Client.songs.search(taehyung)
         if(search.error) return void M.reply(`Couldn't find any matching song results.`)
         const lyrics = await search[0].lyrics()
         let text = `📒 *Title: ${search[0].title}*\n\n`
