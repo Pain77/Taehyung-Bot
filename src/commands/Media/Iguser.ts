@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
 	    run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Give me the username of the account you want to search\n\nExample: !iguser itsrockash')
-        const chitoge = joined.trim()
-        console.log(chitoge)
-        const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${chitoge}&apikey=LJowCce5Pn`)
+        const taehyung = joined.trim()
+        console.log(taehyung)
+        const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${taehyung}&apikey=LJowCce5Pn`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result.profile_url).catch((e) => {
             return void M.reply(e.message)
