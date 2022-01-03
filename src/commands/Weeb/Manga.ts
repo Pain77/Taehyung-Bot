@@ -24,10 +24,10 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		if (!joined) return void (await M.reply(`Give me a manga title 🐱`));
-		const chitoge = joined.trim();
+		const taehyung = joined.trim();
 		const get = new Manga();
 		const search = await get
-			.manga(chitoge)
+			.manga(taehyung)
 			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			.catch((err: any) => {
 				return void M.reply(`Couldn't find any matching manga title.`);
