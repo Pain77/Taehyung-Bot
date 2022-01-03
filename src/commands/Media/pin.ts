@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Provide the keywords you wanna search 🐱')
-        const chitoge = joined.trim()
-        console.log(chitoge)
-        const { data } = await axios.get(`https://api.ichikaa.xyz/api/pinterest?query=${chitoge}`)
+        const taehyung = joined.trim()
+        console.log(taehyung)
+        const { data } = await axios.get(`https://api.ichikaa.xyz/api/pinterest?query=${taehyung}`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result[Math.floor(Math.random() * data.result.length)]).catch((e) => {
             return void M.reply(e.message)
@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `*Your query ${chitoge} has been found 🍂*\n`,
+                    `*Your query ${taehyung} has been found 🍂*\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
