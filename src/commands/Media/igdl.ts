@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Give the link of the video you want to download!')
-        const chitoge = joined.trim()
-        console.log(chitoge)
-        const { data } = await axios.get(`https://api.zekais.com/igdl2?url=${chitoge}&apikey=CnXf9Ojs`)
+        const taehyung = joined.trim()
+        console.log(taehyung)
+        const { data } = await axios.get(`https://api.zekais.com/igdl2?url=${taehyung}&apikey=CnXf9Ojs`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
         const buffer = await request.buffer(data.result[0].url).catch((e) => {
             return void M.reply(e.message)
