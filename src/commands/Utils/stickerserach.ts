@@ -33,7 +33,7 @@ const b = `${data.results?.[Math.floor(Math.random() * data.results.length)]?.me
 
         const sticker: any = await new Sticker(b, {
 			pack: "ᵈᵃʳˡⁱⁿᵍ ᵒʰᵃʸᵒ",
-			author: "ʙʏ 𝒁𝒆𝒓𝒐 𝑻𝒘𝒐 ",
+			author: "ʙʏ 𝙏𝙖𝙚𝙝𝙮𝙪𝙣𝙜 ",
 			quality: 90,
 			type: "crop",
 			categories: ["🎊"],
