@@ -27,13 +27,13 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		// consider neko and kitsune in furry
 		const char = ["yuri", "lewdkemo", "hentai", "erofeet", "tits", "trap"];
-		const chitoge = joined.trim().split(" ")[0].toLowerCase();
+		const taehyung = joined.trim().split(" ")[0].toLowerCase();
 		let text = "";
 		char.map((c) => {
 			text += `🎈${c.charAt(0).toUpperCase() + c.slice(1)}\n\n`;
 			// index % 4 === 3 ? (text += '\n') : (text += ' '.repeat(10 - c.length))
 		});
-		if (!chitoge)
+		if (!taehyung)
 			return void M.reply(
 				`*🍑 NSFW OPTIONS 🍑*\n\n${text}Use ${this.client.config.prefix}nsfwpaper (option) to get NSFW content\nExample: ${this.client.config.prefix}nsfwpaper hentai`
 			);
@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 
 		// fetch result of https://nekos.life/api/v2/img/ from the API using axios
 		const { data } = await axios.get(
-			`https://nekos.life/api/v2/img/${chitoge}`
+			`https://nekos.life/api/v2/img/${taehyung}`
 		);
 		if (!(await this.client.getGroupData(M.from)).nsfw)
 			return void M.reply(
