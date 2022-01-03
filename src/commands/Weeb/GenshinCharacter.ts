@@ -22,11 +22,11 @@ export default class Command extends BaseCommand {
 		M: ISimplifiedMessage,
 		{ joined }: IParsedArgs
 	): Promise<void> => {
-		if (!joined) return void (await M.reply(`Give me a character name, Baka!`));
-		const chitoge = joined.trim();
-		const genshin = await genshindb.characters(chitoge);
+		if (!joined) return void (await M.reply(`Give me a character name, Pabo!`));
+		const taehyung = joined.trim();
+		const genshin = await genshindb.characters(taehyung);
 		if (genshin === undefined) {
-			return void M.reply("No such character, Baka!");
+			return void M.reply("No such character, Pabo!");
 		}
 		let text = "";
 		text += `💎 *Name: ${genshin.name}*\n`;
