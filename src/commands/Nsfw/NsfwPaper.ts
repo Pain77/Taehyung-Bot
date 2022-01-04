@@ -37,7 +37,7 @@ export default class Command extends BaseCommand {
 			return void M.reply(
 				`*🍑 NSFW OPTIONS 🍑*\n\n${text}Use ${this.client.config.prefix}nsfwpaper (option) to get NSFW content\nExample: ${this.client.config.prefix}nsfwpaper hentai`
 			);
-		if (!char.includes(chitoge))
+		if (!char.includes(taehyung))
 			return void M.reply(
 				`Ahh invalid option 🐱!\nUse ${this.client.config.prefix}nsfwpaper to see all available options`
 			);
