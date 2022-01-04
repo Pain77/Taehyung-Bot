@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
 			return void M.reply(
 				`🪧 *OPTIONS:*\n${text}Use ${this.client.config.prefix}ac (option) to get Characters\nExample: ${this.client.config.prefix}animepaper neko`
 			);
-		if (!char.includes(chitoge))
+		if (!char.includes(taehyung))
 			return void M.reply(
 				`✖️ Invalid option! 🧧\nUse ${this.client.config.prefix}animepaper to see all available options`
 			);
