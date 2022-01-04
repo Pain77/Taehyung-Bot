@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                      .join(' \n')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: zerotwo }, MessageType.image, {quoted:M.WAMessage,
+            return void this.client.sendMessage(M.from, { url: taehyung }, MessageType.image, {quoted:M.WAMessage,
 
 
             caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
