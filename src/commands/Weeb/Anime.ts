@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 			});
 		const client = new Anime();
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const ani = await client.anime(chitoge).catch((err: any) => {
+		const ani = await client.anime(taehyung).catch((err: any) => {
 			return void M.reply(`Couldn't find any matching anime.`);
 		});
 		let text = "";
