@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
         const n = [
             './assets/zerotwo-mean.mp4'
         ]
-        let taehyung = n[Math.floor(Math.random() * n.length)]
+        let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: taehyung }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `𝙅𝙖𝙜𝙞, 𝙩𝙮𝙥𝙚 🐥 ${this.client.config.prefix}ʜᴇʟᴘ\n` }
