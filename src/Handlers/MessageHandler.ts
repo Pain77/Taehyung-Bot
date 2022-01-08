@@ -26,7 +26,7 @@ export default class MessageHandler {
 					this.client.user.name ||
 					this.client.user.vname ||
 					this.client.user.short ||
-					"Chitoge";
+					"Taehyung-Bot";
 			} else if (M.WAMessage.key.fromMe) return void null;
 
 			if (M.from.includes("status")) return void null;
@@ -92,7 +92,7 @@ export default class MessageHandler {
 			);
 			if (!command)
 				return void M.reply(
-					`No such command, Babo! Have you never seen someone use the command *${this.client.config.prefix}help*.`
+					`No such command, Pabo! Have you never seen someone use the command *${this.client.config.prefix}help*.`
 				);
 			const user = await this.client.getUser(M.sender.jid);
 			if (user.ban) return void M.reply("You're Banned from using commands.");
