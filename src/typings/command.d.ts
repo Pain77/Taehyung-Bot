@@ -33,6 +33,7 @@ export type TCategory =
 	| "media"
 	| "moderation"
 	| "nsfw"
+        | "privatecmd" 
 	| "utils"
 	| "weeb"
 	| "category";
