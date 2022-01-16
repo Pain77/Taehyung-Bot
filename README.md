@@ -39,7 +39,7 @@ A Fully Modular and Efficient Bot <br>
 
 ## Follow me on insta.
 <p align="left">
-  <a href="https://instagram.com/on11._.sama"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
+<a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
     
 --------
 
