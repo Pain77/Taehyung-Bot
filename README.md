@@ -5,6 +5,9 @@
 
 <h1 align="center">(っ◔◡◔)っ ♥ 𝙏𝙖𝙚𝙝𝙮𝙪𝙣𝙜 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝘽𝙤𝙩! ♥ <img src="https://c.tenor.com/uPorZsWSDUoAAAAC/taehyung-bts.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
+  <a href="https://github.com/Pain77"><img title="Author" src="https://img.shields.io/badge/Author-P--A--I--N-blue.svg?style=for-the-badge&logo=github" /></a>
+</p>
+<p align="center">
 
 
 <div align="left">
