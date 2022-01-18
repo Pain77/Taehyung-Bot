@@ -37,7 +37,7 @@ A Fully Modular and Efficient Bot <br>
 -   Make sure to follow the ESLint Rules while editing the code and run
     `yarn run prettier-format` before opening PRs
 
-## Follow me on insta.
+## Contact me here :
 <p align="left">
 <a href="https://api.whatsapp.com/send?phone=919662713165&text=♨️+ʟɪꜰᴇ ꜱᴜᴄᴋꜱ™" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=for-the-badge&logo=Whatsapp&logoColor=white" alt="WhatsApp"><br>
     
