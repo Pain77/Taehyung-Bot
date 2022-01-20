@@ -36,9 +36,7 @@ export default class Command extends BaseCommand {
 					MessageType.image,
 					undefined,
 					undefined,
-					`*/)/)   (\(\
-( . .)   (. . )
-( づ🍭⊂ )*\n`,
+					`*( づ🍭⊂ )*\n`,
 					undefined
 				).catch((e) => {
 					console.log(
