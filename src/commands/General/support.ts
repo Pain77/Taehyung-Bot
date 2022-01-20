@@ -29,7 +29,7 @@ await this.client.sendMessage( M.sender.jid,`*TAEHYUNG'S SUPPORT GROUP 🌸*
 
 *🧣 Tittle: 『 Taehyung-Bot 』🎈*
 
-*✉ Invite:* https://chat.whatsapp.com/BQTzE7VMCme88aZovO0p9G`, MessageType.text ) 
+*✉ Invite:* https://chat.whatsapp.com/C3kk3GSXLitKHZp9wLLTP3`, MessageType.text ) 
 return void M.reply('_*Sent you a personal message regarding this 🎈*_')
     }
 }
