@@ -32,6 +32,7 @@ export default class Command extends BaseCommand {
 
 ╰• ᴘᴀɪɴ
 🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/919662713165?text=𝙝𝙚𝙡𝙡𝙤+ᴘᴀɪɴ
+💻ɢɪᴛʜᴜʙ: https://github.com/Pain77
  
 •━━━ ✽ • ✽ ━━━•`,
 			}
