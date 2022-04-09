@@ -37,6 +37,7 @@ export default class Command extends BaseCommand {
                 'happy',
                 'poke',
                 'dance'
+                'pain'
             ],
             category: 'fun',
             usage: `${client.config.prefix}(reaction) [tag/quote users]\nExample: ${client.config.prefix}pat`,
@@ -79,6 +80,7 @@ export default class Command extends BaseCommand {
             happy: ['is Happy with', 'is Happy by'],
             poke: ['Poked'],
             dance: ['is Dancing with', 'is Dancing by']
+            pain: ['is in pain with', 'is in pain by']
         } as unknown as { [key: string]: string[] }
         // take the first argument and make it lowercase
         const term = flag ? joined.split(' ')[0].toLowerCase() : action
