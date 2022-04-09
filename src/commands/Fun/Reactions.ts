@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
                 'wink',
                 'happy',
                 'poke',
-                'dance'
+                'dance',
                 'pain'
             ],
             category: 'fun',
@@ -79,7 +79,7 @@ export default class Command extends BaseCommand {
             wink: ['Winked at'],
             happy: ['is Happy with', 'is Happy by'],
             poke: ['Poked'],
-            dance: ['is Dancing with', 'is Dancing by']
+            dance: ['is Dancing with', 'is Dancing by'],
             pain: ['is in pain with', 'is in pain by']
         } as unknown as { [key: string]: string[] }
         // take the first argument and make it lowercase
