@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
 💻ɢɪᴛʜᴜʙ: https://github.com/Pain77
  
 ╰• Juice WRLD
-🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/263780699988?text=𝙝𝙚𝙡𝙡𝙤+ᴊᴜɪᴄᴇ ᴡʀʟᴅ
+🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/263780699988?text=𝙝𝙚𝙡𝙡𝙤+ᴊᴜɪᴄᴇ+ᴡʀʟᴅ
 
 •━━━ ✽ • ✽ ━━━•`,
 			}
