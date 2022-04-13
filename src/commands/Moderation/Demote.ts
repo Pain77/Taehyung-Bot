@@ -25,10 +25,10 @@ export default class Command extends BaseCommand {
             const username = usr.notify || usr.vname || usr.name || user.split('@')[0]
             if (!M.groupMetadata?.admins?.includes(user)) M.reply(`✖ Skipped *${username}* as they're not an admin`)
             else if (user !== this.client.user.jid) {
-                const taehyung = 
-			"https://c.tenor.com/Fk79hfrn294AAAPo/bts-bangtan-boys.mp4";
                 await this.client.groupDemoteAdmin(M.from, [user])
                 M.reply(`➰ Successfully Demoted *${username}*`)
+		    const taehyung = 
+			"https://c.tenor.com/Fk79hfrn294AAAPo/bts-bangtan-boys.mp4";
                 M.from,
 			{ url: taehyung },
 			MessageType.video,
