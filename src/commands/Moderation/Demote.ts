@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
             
             if (image)
                 return void (await this.client.groupDemoteAdmin(user.jid, image, MessageType.video, {
-                    mimetype: Mimetype.gif
+                    mimetype: Mimetype.gif,
 		}
             }
         })
