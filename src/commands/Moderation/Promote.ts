@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
 		    let image = await this.client.assets.get('goodbye1')
             
             if (image)
-                return void (await this.client.sendMessage(mod.jid, image, MessageType.video, {
+                return void (await this.client.sendMessage(user.jid, image, MessageType.video, {
                     mimetype: Mimetype.gif
 		}
             }
