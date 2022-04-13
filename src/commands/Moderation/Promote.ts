@@ -32,15 +32,12 @@ export default class Command extends BaseCommand {
             else {
                 await this.client.groupMakeAdmin(M.from, [user])
                 M.reply(`👑 Successfully Promoted *${username}*`)
-		    const taehyung = 
-			"https://c.tenor.com/Fk79hfrn294AAAPo/bts-bangtan-boys.mp4";
-		    M.from,
-			{ url: taehyung },
-			MessageType.video,
-			{
-			        quoted: M.WAMessage,
-				mimetype: Mimetype.gif
-		    }
+		    let image = await this.client.assets.get('goodbye1')
+            
+            if (image)
+                return void (await this.client.sendMessage(mod.jid, image, MessageType.video, {
+                    mimetype: Mimetype.gif
+		}
             }
         })
     }
