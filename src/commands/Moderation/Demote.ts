@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
 		    let image = await this.client.assets.get('welcome1')
             
             if (image)
-                return void (await this.client.groupDemoteAdmin(mod.jid, image, MessageType.video, {
+                return void (await this.client.groupDemoteAdmin(user.jid, image, MessageType.video, {
                     mimetype: Mimetype.gif
 		}
             }
