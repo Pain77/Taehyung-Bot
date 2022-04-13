@@ -26,12 +26,12 @@ export default class Command extends BaseCommand {
             if (!M.groupMetadata?.admins?.includes(user)) M.reply(`✖ Skipped *${username}* as they're not an admin`)
             else if (user !== this.client.user.jid) {
                 await this.client.groupDemoteAdmin(M.from, [user])
-                M.reply(`➰ Successfully Demoted *${username}*`)
+                M.reply(`➰ Successfully Demoted *${username}*`),
 		    let image = await this.client.assets.get('welcome1')
             
             if (image)
                 return void (await this.client.groupDemoteAdmin(user.jid, image, MessageType.video, {
-                    mimetype: Mimetype.gif,
+                    mimetype: Mimetype.gif
 		}
             }
         })
