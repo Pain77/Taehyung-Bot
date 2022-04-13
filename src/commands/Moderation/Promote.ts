@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
             if (M.groupMetadata?.admins?.includes(user)) M.reply(`✖ Skipped *${username}* as they're already an admin`)
             else {
                 await this.client.groupMakeAdmin(M.from, [user])
-                M.reply(`👑 Successfully Promoted *${username}*`)
+                M.reply(`👑 Successfully Promoted *${username}*`),
 		    let image = await this.client.assets.get('goodbye1')
             
             if (image)
