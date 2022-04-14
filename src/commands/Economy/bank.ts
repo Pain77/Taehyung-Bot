@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
 
     const buttonMessage: any = {
       contentText: `🏦 Bank | ${M.sender.username}\n\n🪙 Gold: ${result}`,
-      footerText: "🚀DREADED-BOT🚀",
+      footerText: "🚀TAEHYUNG-BOT🚀",
       buttons: buttons,
       headerType: 1,
     };
