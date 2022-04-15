@@ -44,10 +44,15 @@ export interface IGroup {
 }
 
 export interface IUser {
-	jid: string;
-	ban: boolean;
-	warnings: number;
-	Xp: number;
+  jid: string;
+  ban: boolean;
+  warnings: number;
+  Xp: number;
+  wallet: number;
+  bank: number;
+  coin: number;
+  lastDaily: number;
+  lastRob: number;
 }
 
 export interface IFeature {
