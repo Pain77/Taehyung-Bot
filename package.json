@@ -108,7 +108,6 @@
         "mailist": "^1.0.3",
         "pokecord": "^1.0.1",
         "public-waifulist": "0.0.2",
-        "sharp": "^0.29.3",
         "text-from-image": "^1.0.1",
         "w5-textmaker": "^1.0.2",
         "yuri-canvas": "^4.0.6"
