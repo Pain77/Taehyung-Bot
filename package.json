@@ -2,10 +2,10 @@
     "name": "Taehyung-Bot",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Anime Features.",
-    "main": "dist/taehyung-bot.js",
+    "main": "dist/Taehyung-Bot.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node dist/taehyung-bot.js",
+        "start": "node dist/Taehyung-Bot.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
