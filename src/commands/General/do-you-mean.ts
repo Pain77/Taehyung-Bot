@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
         let taehyung = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: taehyung }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `𝙒𝙝𝙖𝙩 𝙙𝙤 𝙮𝙤𝙪 𝙢𝙚𝙖𝙣?, 𝙏𝙮𝙥𝙚 🐥 ${this.client.config.prefix}ʜᴇʟᴘ\n` }
+            caption: `ᴅᴀᴍɴ ᴛʜɪꜱ ᴋɪᴅ…, ᴛʏᴘᴇ ${this.client.config.prefix}ʜᴇʟᴘ\n` }
         )
     }
 }
